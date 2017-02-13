@@ -1,0 +1,226 @@
+.icon-basket, .icon-basket-white, .icon-bookmark, .icon-bookmark-white, .icon-check-off, .icon-check-off-block, .icon-check-off-hover, .icon-check-on, .icon-check-on-block, .icon-check-on-hover, .icon-circle, .icon-circle-block, .icon-circle-dot, .icon-circle-dot-block, .icon-circle-dot-hover, .icon-circle-hover, .icon-down-di-peace, .icon-down-dir, .icon-down-dir-peace, .icon-fb, .icon-fb, .icon-home, ..icon-search-white, .icon-inst, .icon-login, .icon-login-blue, .icon-logout, .icon-logout-lue, .icon-phone, .icon-search, .icon-search-red, .icon-up-dir, .icon-user, .icon-user-blue, .icon-vk, .point, .icon-arrow{
+	background: url(sprites.png) no-repeat;
+}
+
+.icon-basket{
+	background-position: -55px -10px ;
+	width: 17px;
+	height: 16px;
+}
+
+.icon-basket-white{
+	background-position: -105px -12px ;
+	width: 17px;
+	height: 16px;
+}
+
+.icon-bookmark{
+	background-position: -155px -10px ;
+	width: 14px;
+	height: 16px;
+}
+
+.icon-bookmark-white{
+	background-position: -204.99998474121094px -8px ;
+	width: 14px;
+	height: 16px;
+}
+
+.icon-check-off{
+	background-position: -262.00001525878906px -11px ;
+	width: 23px;
+	height: 23px;
+}
+
+.icon-check-off-block{
+	background-position: -308.00001525878906px -13px ;
+	width: 23px;
+	height: 23px;
+}
+
+.icon-check-off-hover{
+	background-position: -361.00001525878906px -13px ;
+	width: 23px;
+	height: 23px;
+}
+
+.icon-check-on{
+	background-position: -411.00001525878906px -13px ;
+	width: 27px;
+	height: 23px;
+}
+
+.icon-check-on-block{
+	background-position: -459.00001525878906px -15px ;
+	width: 27px;
+	height: 23px;
+}
+
+.icon-check-on-hover{
+	background-position: -507.00001525878906px -13px ;
+	width: 27px;
+	height: 23px;
+}
+
+.icon-circle{
+	background-position: -560.0000152587891px -14px ;
+	width: 25px;
+	height: 25px;
+}
+
+.icon-circle-block{
+	background-position: -592.0000152587891px -14px ;
+	width: 25px;
+	height: 25px;
+}
+
+.icon-circle-dot{
+	background-position: 0 -47px ;
+	width: 25px;
+	height: 25px;
+}
+
+.icon-circle-dot-block{
+	background-position: -45px -48px ;
+	width: 25px;
+	height: 25px;
+}
+
+.icon-circle-dot-hover{
+	background-position: -96px -47px ;
+	width: 25px;
+	height: 25px;
+}
+
+.icon-circle-hover{
+	background-position: -142px -46px ;
+	width: 25px;
+	height: 25px;
+}
+
+.icon-down-di-peace{
+	background-position: -196px -51px ;
+	width: 11px;
+	height: 10px;
+}
+
+.icon-down-dir{
+	background-position: -249px -57px ;
+	width: 11px;
+	height: 10px;
+}
+
+.icon-down-dir-peace{
+	background-position: -304px -57px ;
+	width: 11px;
+	height: 10px;
+}
+
+.icon-fb{
+	background-position: -117px -59px ;
+	width: 10px;
+	height: 18px;
+}
+
+.icon-fb{
+	background-position: -354.99998474121094px -52px ;
+	width: 10px;
+	height: 18px;
+}
+
+.icon-home{
+	background-position: -396.99998474121094px -54px ;
+	width: 15px;
+	height: 12px;
+}
+
+..icon-search-white{
+	background-position: -2px -8px ;
+	width: 17px;
+	height: 17px;
+}
+
+.icon-inst{
+	background-position: -450.99998474121094px -54px ;
+	width: 17px;
+	height: 17px;
+}
+
+.icon-login{
+	background-position: -500.99998474121094px -52px ;
+	width: 20px;
+	height: 17px;
+}
+
+.icon-login-blue{
+	background-position: -547.9999847412109px -53px ;
+	width: 20px;
+	height: 17px;
+}
+
+.icon-logout{
+	background-position: -595.9999847412109px -52px ;
+	width: 21px;
+	height: 17px;
+}
+
+.icon-logout-lue{
+	background-position: -3px -102px ;
+	width: 21px;
+	height: 17px;
+}
+
+.icon-phone{
+	background-position: -47px -100px ;
+	width: 19px;
+	height: 19px;
+}
+
+.icon-search{
+	background-position: -103px -104px ;
+	width: 17px;
+	height: 17px;
+}
+
+.icon-search-red{
+	background-position: -152px -103px ;
+	width: 17px;
+	height: 17px;
+}
+
+.icon-up-dir{
+	background-position: -199.99998474121094px -107px ;
+	width: 11px;
+	height: 10px;
+}
+
+.icon-user{
+	background-position: -246.99998474121094px -103px ;
+	width: 20px;
+	height: 18px;
+}
+
+.icon-user-blue{
+	background-position: -296.99998474121094px -103px ;
+	width: 20px;
+	height: 18px;
+}
+
+.icon-vk{
+	background-position: -363.00001525878906px -104.99998474121094px ;
+	width: 20px;
+	height: 12px;
+}
+
+.point{
+	background-position: -419.00001525878906px -107.99998474121094px ;
+	width: 4px;
+	height: 5px;
+}
+
+.icon-arrow{
+	background-position: -466.00001525878906px -103.99998474121094px ;
+	width: 8px;
+	height: 12px;
+}
+
