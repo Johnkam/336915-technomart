@@ -765,7 +765,7 @@ h2 {
 .good-card-action a:nth-child(2):hover {
     border-color: #32425c;
 }
-..good-card-action a:nth-child(2):active {
+.for-before + a:nth-child(2):active {
     border-color: #c1c6ce;
     color: #c1c6ce;
 }
