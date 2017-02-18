@@ -6,22 +6,6 @@ body {
     line-height: 18px;
     min-width: 940px;
 }
-h1 {
-    color: #000000;
-    font-size: 30px;
-    font-family: inherit;
-    font-weight: normal;
-    line-height: 24 px;
-    text-transform: uppercase;
-}
-h2 {
-    color: #ffffff;
-    font-size: 24px;
-    font-family: inherit;
-    font-weight: bold;
-    line-height: 30px;
-    margin: 0;
-}
 .clearfix::after {
     content: "";
     display: table;
@@ -159,6 +143,9 @@ h2 {
 .header-marks:hover a::before {
     background-position: -205px -8px;
 }
+.header-marks:active a::before {
+    background-position: -155px -10px;
+}
 .header-marks a:active {
     background-color: #161d29;
 }
@@ -193,6 +180,9 @@ h2 {
 }
 .header-basket:hover a::before {
     background-position: -105px -12px;
+}
+.header-basket:active a::before {
+    background-position: -55px -10px;
 }
 .header-basket a:active {
     background-color: #161d29;
@@ -250,14 +240,12 @@ h2 {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
-}
-.phone-number p {
     font-size: 21px;
     line-height: 18px;
     color: #e9292a;
     margin: 0;
 }
-.phone-number p::before {
+.phone-number::before {
     content: "";
     width: 19px;
     height: 19px;
@@ -476,7 +464,6 @@ h2 {
 
 .main .banner-block {
     width: 940px;
-    height: 410px;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
@@ -488,6 +475,10 @@ h2 {
 }
 .promo-item h2 {
     margin: 21px 0 0 24px;
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 30px;
 }
 .promo-item a {
     font-size: 14px;
@@ -994,7 +985,7 @@ h2 {
     margin-top: 22px;
 }
 .services .service-header {
-    padding: 69px 0 0 3px;
+    padding: 45px 0 0 3px;
     margin-bottom: 68px;
 }
 .service-header h2 {
@@ -1072,7 +1063,7 @@ h2 {
     color: #32425c;
     text-transform: uppercase;
     font-weight: normal;
-    margin-bottom: 30px;
+    margin: 0 0 30px 0;
 }
 .service-tab-slide p {
     font-family: "PT Sans", sans-serif;
@@ -1080,6 +1071,7 @@ h2 {
     line-height: 24px;
     color: #000000;
     margin: 0;
+    width: 376px;
 }
 
 
@@ -1104,6 +1096,12 @@ h2 {
 }
 .technomart-company h1 {
     margin: 0;
+    color: #000000;
+    font-size: 30px;
+    font-family: inherit;
+    font-weight: normal;
+    line-height: 24 px;
+    text-transform: uppercase;
 }
 .technomart-company p {
     margin: 0;
@@ -1182,6 +1180,7 @@ h2 {
     font-size: 13px;
     line-height: 24px;
     color: #000000;
+    width: 182px;
 }
 .contacts .write-us-btn {
     text-decoration: none;
@@ -1251,7 +1250,7 @@ h2 {
     margin: 10px 19px 0px 0px;
     width: 204px;
 }
-.write-us input[type="e-mail"] {
+.write-us input[type="email"] {
     border: 2px solid #d7dcde;
     -webkit-border-radius: 2px;
     -moz-border-radius: 2px;
@@ -1280,7 +1279,9 @@ h2 {
     -moz-border-radius: 2px;
     -o-border-radius: 2px;
     border-radius: 2px;
-    padding: 1px 0 0 15px;
+    padding: 7px 0 0 15px;
+    margin-top: 10px;
+    box-sizing: border-box;
 }
 .write-us .letter-container {
     clear: both;
@@ -1291,7 +1292,6 @@ h2 {
     font-size: 18px;
     line-height: 18px;
     color: #000000;
-    margin: 0 0 13px;
 }
 .write-us .submit input {
     font-family: Cuprum, sans-serif;
@@ -1609,11 +1609,13 @@ h2 {
     margin: 0 43px 0 0;
 }
 .breadcrumbs + h1 {
+    font-size: 30px;
     line-height: 30px;
     color: #32425c;
     background-color: #f2f6f8;
     margin: 0 0 19px 0;
     padding: 30px 0 30px 28px;
+    text-transform: uppercase;
 }
 .search-filters {
     width: 220px;
@@ -1627,8 +1629,70 @@ h2 {
     margin-bottom: 62px;
 }
 .add-to-basket {
+    position: absolute;
+    top: -135px;
+    left: -617px;
     display: none;
+    width: 620px;
+    border-top: 7px solid #ee3643;
+    box-sizing: border-box;
+    z-index: 10;
+    background-color: #ffffff;
 }
+.add-to-basket .close-form {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    display: block;
+    width: 21px;
+    height: 21px;
+    background: url(../img/cross.png) no-repeat;
+    text-decoration: none;
+}
+.add-to-basket p {
+    background: url(../img/icon-add.png) no-repeat;
+    background-position: 79px 46px;
+    font-size: 30px;
+    line-height: 18px;
+    color: #000000;
+    text-align: center;
+    padding: 72px 0;
+    margin: 0;
+}
+.basket-btns a:nth-child(1) {
+    font-size: 14px;
+    line-height: 18px;
+    color: #ffffff;
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: #ee3643;
+    padding: 9px 60px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -o-border-radius: 2px;
+    border-radius: 2px;
+    margin: 38px 20px 38px 82px;
+    float: left;
+}
+.add-to-basket .basket-btns {
+    background-color: #f1f1f1;
+}
+.basket-btns a:nth-child(2) {
+    font-size: 14px;
+    line-height: 18px;
+    color: #000000;
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: #ffffff;
+    padding: 9px 44px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -o-border-radius: 2px;
+    border-radius: 2px;
+    margin: 38px 0;
+    float: left;
+}
+
 .products .pages-nav {
     margin-top: 31px;
     clear: both;
@@ -1699,7 +1763,7 @@ h2 {
     font-size: 0;
     background-color: #f7f3ec;
     padding: 6px 20px;
-    margin: 20px 0; 
+    margin: 0; 
     -webkit-border-radius: 2px;
     -moz-border-radius: 2px;
     -o-border-radius: 2px;
