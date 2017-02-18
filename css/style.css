@@ -371,9 +371,6 @@ h2 {
 .user-block:hover .name::before {
     background-position: -296.99998474121094px -103px;
 }
-.user-block .name:hover {
-    color
-}
 .user-block .name:active {
     opacity: 0.3;
 }
